@@ -2,7 +2,7 @@
 
 dotfiles="$HOME/.dotfiles"
 
-lnif() {
+link_file() {
     if [ ! -e $2 ] ; then
         ln -s $1 $2
     fi
@@ -17,3 +17,9 @@ else
     echo "Updating dotfiles\n"
     cd $dotfiles && git pull
 fi
+
+echo "Setup ZSH\n"
+link_file $dotfiles/zprofile $HOME/.zprofile
+
+echo "Setup VIM\n"
+link_file $dotfiles/vimrc $HOME/.vimrc
