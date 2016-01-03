@@ -3,7 +3,7 @@
 dotfiles="$HOME/.dotfiles"
 
 notify_stage() {
-    echo "\033[32m$1\033[0m"
+    echo -e "\033[32m$1\033[0m"
 }
 
 link_file() {
@@ -24,6 +24,9 @@ fi
 
 notify_stage "Setup ZSH"
 link_file $dotfiles/zprofile $HOME/.zprofile
+link_file $dotfiles/zshrc $HOME/.zshrc
+
 
 notify_stage "Setup VIM"
 link_file $dotfiles/vimrc $HOME/.vimrc
+
