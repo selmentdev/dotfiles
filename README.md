@@ -3,5 +3,5 @@
 ## Installation
 
 ```bash
-curl https://raw.github.com/selmentdev/dotfiles/master/install.sh -L -o - | sh
+curl https://raw.githubusercontent.com/selmentdev/dotfiles/master/install.sh -L -o - | sh
 ```
