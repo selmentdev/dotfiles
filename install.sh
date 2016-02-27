@@ -30,3 +30,5 @@ link_file $dotfiles/zshrc $HOME/.zshrc
 notify_stage "Setup VIM"
 link_file $dotfiles/vimrc $HOME/.vimrc
 
+notify_stage "Setup GIT"
+link_file $dotfiles/gitconfig $HOME/.gitconfig
