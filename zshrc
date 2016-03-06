@@ -5,7 +5,7 @@ export ZSH=~/.oh-my-zsh
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
-ZSH_THEME="bureau" #="robbyrussell"
+ZSH_THEME="junkfood" #="robbyrussell"
 
 # bureau
 # junkfood
@@ -56,7 +56,7 @@ plugins=(git git-extras git-flow git-prompt python colorize)
 
 # User configuration
 
-  export PATH="/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/sbin:/home/karolgrzybowski/.local/bin:/home/karolgrzybowski/bin"
+  export PATH="/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/sbin:/home/selmentdev/.local/bin:/home/selmentdev/bin"
 # export MANPATH="/usr/local/man:$MANPATH"
 
 source $ZSH/oh-my-zsh.sh
@@ -85,3 +85,6 @@ export EDITOR='vim'
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+alias mount-repository="sudo mount /dev/sdb1 ~/repository"
+
+export NO_AT_BRIDGE=1
