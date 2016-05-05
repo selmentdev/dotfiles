@@ -88,3 +88,5 @@ export EDITOR='vim'
 alias mount-repository="sudo mount /dev/sdb1 ~/repository"
 
 export NO_AT_BRIDGE=1
+
+alias ls="ls --group-directories-first --color=tty"
