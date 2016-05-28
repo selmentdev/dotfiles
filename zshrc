@@ -5,10 +5,13 @@ export ZSH=~/.oh-my-zsh
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
-ZSH_THEME="junkfood" #="robbyrussell"
-
-# bureau
-# junkfood
+ZSH_THEME="mortalscumbag" #="robbyrussell"
+# re5et
+# josh
+# candy
+# fox
+# crcande
+# juanghurtado
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
