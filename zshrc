@@ -5,7 +5,7 @@ export ZSH=~/.oh-my-zsh
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
-ZSH_THEME="mortalscumbag" #="robbyrussell"
+ZSH_THEME="intheloop" #="robbyrussell"
 # re5et
 # josh
 # candy
@@ -93,3 +93,5 @@ alias mount-repository="sudo mount /dev/sdb1 ~/repository"
 export NO_AT_BRIDGE=1
 
 alias ls="ls --group-directories-first --color=tty"
+
+export SELMENT_ROOT="~/selment/"
