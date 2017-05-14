@@ -94,4 +94,4 @@ export NO_AT_BRIDGE=1
 
 alias ls="ls --group-directories-first --color=tty"
 
-export SELMENT_ROOT="~/selment/"
+export SELMENT_ROOT="~/selment"
