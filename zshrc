@@ -95,4 +95,8 @@ export NO_AT_BRIDGE=1
 alias ls="ls --group-directories-first --color=tty"
 
 export SELMENT_ROOT="/home/selmentdev/selment"
+export VULKAN_SDK=~/vulkan/1.1.85.0/x86_64
+export PATH=$VULKAN_SDK/bin:$PATH
+export LD_LIBRARY_PATH=$VULKAN_SDK/lib:$LD_LIBRARY_PATH
+export VK_LAYER_PATH=$VULKAN_SDK/etc/explicit_layer.d
 
